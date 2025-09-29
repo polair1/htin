@@ -33,7 +33,7 @@ Esta herramienta está diseñada **EXCLUSIVAMENTE** para:
 ```bash
 # Clonar el repositorio
 git clone https://github.com/polair1/htin.git
-cd htin2.py
+cd htin
 
 # Instalar con pip
 pip install -e .
