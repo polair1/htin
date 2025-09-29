@@ -24,7 +24,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Probar instalación
-python3 html_scanner.py --version
+python3 htin.py --version
 
 """macOS"""
 
