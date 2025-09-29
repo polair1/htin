@@ -24,7 +24,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Probar instalación
-python3 htin.py --version
+python3 htin2.py --version
 
 """macOS"""
 
@@ -48,4 +48,4 @@ pip3 install -r requirements.txt
 git clone https://github.com/TU_USUARIO/html-injection-scanner.git
 cd html-injection-scanner
 pip install -r requirements.txt
-python html_scanner.py --version
+python htin2.py --version
