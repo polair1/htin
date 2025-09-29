@@ -61,4 +61,4 @@ python3 htin2.py -u http://example.com -d 2
 # --no-color
 Desactiva colores ANSI (útil para logs).
 Ejemplo:
-bashpython3 htin2.py -u http://example.com --no-color > scan.log
+python3 htin2.py -u http://example.com --no-color > scan.log
