@@ -36,7 +36,7 @@ brew install python3
 
 # Clonar e instalar
 git clone https://github.com/polair1/htin.git
-cd html-injection-scanner
+cd htin
 pip3 install -r requirements.txt
 
 """Windows"""
