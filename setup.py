@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="html-injection-scanner",
+    name="htin",
     version="1.0.0",
-    author="Tu Nombre",
-    author_email="tu-email@ejemplo.com",
+    author="Airon Delfino(nunu)",
+    author_email="nunu071126@gmail.com",
     description="Herramienta para detectar vulnerabilidades de inyección HTML",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tu-usuario/html-injection-scanner",
+    url="https://github.com/polair1/htin",
     py_modules=["html_scanner"],
     classifiers=[
         "Development Status :: 4 - Beta",
