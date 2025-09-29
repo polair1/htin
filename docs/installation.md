@@ -14,7 +14,7 @@ sudo apt install python3 python3-pip git
 
 # Clonar repositorio
 git clone https://github.com/polair1/htin.git
-cd html-injection-scanner
+cd htin
 
 # Crear entorno virtual (recomendado)
 python3 -m venv venv
