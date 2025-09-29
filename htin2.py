@@ -22,7 +22,7 @@ import time
 from datetime import datetime
 
 __version__ = "1.0.0"
-__author__ = "Security Researcher"
+__author__ = "Airon Delfino (nunu)"
 
 class Colors:
     """Códigos de color ANSI para terminal"""
