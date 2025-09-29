@@ -7,7 +7,7 @@ ADVERTENCIA LEGAL:
 Solo usar en aplicaciones propias o con autorización explícita por escrito.
 El uso no autorizado es ILEGAL y puede resultar en acciones legales.
 
-Uso: python3 html_scanner.py [opciones]
+Uso: python3 htin2.py [opciones]
 """
 
 import os
