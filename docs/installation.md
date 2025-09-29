@@ -46,6 +46,6 @@ pip3 install -r requirements.txt
 
 # Abrir PowerShell o CMD
 git clone https://github.com/polair1/htin.git
-cd html-injection-scanner
+cd htin
 pip install -r requirements.txt
 python htin2.py --version
