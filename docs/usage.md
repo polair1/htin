@@ -3,7 +3,7 @@
 URL del objetivo a escanear.
 Ejemplos:
 python3 htin2.py -u http://example.com
-python3 html_scanner.py -u https://testphp.vulnweb.com/search.php
+python3 htin2.py -u https://testphp.vulnweb.com/search.php
 
 
 # -v, --verbose
