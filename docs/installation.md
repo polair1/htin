@@ -45,7 +45,7 @@ pip3 install -r requirements.txt
 # Asegúrate de marcar "Add Python to PATH"
 
 # Abrir PowerShell o CMD
-git clone https://github.com/TU_USUARIO/html-injection-scanner.git
+git clone https://github.com/polair1/htin.git
 cd html-injection-scanner
 pip install -r requirements.txt
 python htin2.py --version
