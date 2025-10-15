@@ -107,11 +107,7 @@ class HTMLInjectionScanner:
         return f"__htin_{uuid.uuid4().hex[:6]}__"
 
     def is_vulnerable(self, original_response, injected_response, marker=None):
-        """Detecta si la inyección fue exitosa usando un marcador y una comprobación de DOM.
-        original_response: texto sin inyección (puede estar vacío si no se tiene)
-        injected_response: texto con la respuesta tras inyectar
-        marker: el marcador único que se incluyó en el payload
-        """
+        
         raw = injected_response or ''
         unescaped = html.unescape(raw)
 
@@ -150,7 +146,6 @@ class HTMLInjectionScanner:
         return False, 'No vulnerable'
 
     def test_url_parameter(self, url, param, payload_levels=['basic', 'styled']):
-        """Prueba inyección en parámetro de URL preservando otros parámetros existentes"""
         vulnerabilities = []
         parsed = urlsplit(url)
         qs = parse_qs(parsed.query)
@@ -206,7 +201,6 @@ class HTMLInjectionScanner:
         return vulnerabilities
 
     def test_form(self, url, form, payload_levels=['basic', 'styled']):
-        """Prueba inyección en formulario (soporta inputs, textareas, selects)"""
         vulnerabilities = []
 
         action = form.get('action', '')
@@ -303,7 +297,6 @@ class HTMLInjectionScanner:
         return vulnerabilities
 
     def scan_url(self, url, payload_levels=['basic', 'styled', 'dangerous']):
-        """Escanea una URL completa"""
         self.log(f"Iniciando escaneo de: {url}", 'info')
         all_vulnerabilities = []
 
