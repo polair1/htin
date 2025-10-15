@@ -58,6 +58,11 @@ python3 htin2.py -u http://example.com -d 0.2
 # Escaneo más lento para no saturar (2 segundos)
 python3 htin2.py -u http://example.com -d 2
 
+# -o, --output
+Guarda el resultado en un archivo JSON.
+Ejemplo:
+python3 htin2.py -u http://example.com -o reporte_2025.js
+
 # --no-color
 Desactiva colores ANSI (útil para logs).
 Ejemplo:
